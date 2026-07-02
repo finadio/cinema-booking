@@ -1,5 +1,7 @@
 # CinemaNana - Sistem Pemesanan Bioskop 🍿
 
+![CinemaNana Screenshot](docs/screenshot.png)
+
 CinemaNana adalah aplikasi web *full-stack* untuk pemesanan tiket bioskop. Aplikasi ini memiliki antarmuka pengguna yang modern dan responsif yang dibangun menggunakan React dan Vite, dipadukan dengan REST API *backend* yang tangguh menggunakan Node.js, Express, dan MySQL.
 
 ##  Fitur-fitur
