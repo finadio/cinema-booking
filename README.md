@@ -2,7 +2,7 @@
 
 CinemaNana adalah aplikasi web *full-stack* untuk pemesanan tiket bioskop. Aplikasi ini memiliki antarmuka pengguna yang modern dan responsif yang dibangun menggunakan React dan Vite, dipadukan dengan REST API *backend* yang tangguh menggunakan Node.js, Express, dan MySQL.
 
-## 🌟 Fitur-fitur
+##  Fitur-fitur
 
 - **Autentikasi Pengguna**: Login & Registrasi yang aman menggunakan JWT (JSON Web Tokens).
 - **Jelajah Film**: Melihat semua film yang tersedia, mencari berdasarkan judul, dan memfilter berdasarkan kategori (Action, Sci-Fi, Thriller).
@@ -11,7 +11,7 @@ CinemaNana adalah aplikasi web *full-stack* untuk pemesanan tiket bioskop. Aplik
 - **Riwayat Pesanan**: Halaman dasbor khusus di mana pengguna dapat melihat riwayat pemesanan tiket dan membatalkannya jika diperlukan.
 - **UI/UX Modern**: Tema estetika warna *soft pink* yang dibangun dengan Tailwind CSS, menggunakan ikon Material Symbols yang sepenuhnya responsif untuk layar *mobile* maupun *desktop*.
 
-## 🛠️ Teknologi yang Digunakan
+##  Teknologi yang Digunakan
 
 ### Frontend
 - **Framework**: React.js (via Vite)
@@ -28,7 +28,7 @@ CinemaNana adalah aplikasi web *full-stack* untuk pemesanan tiket bioskop. Aplik
 - **Autentikasi**: JWT (jsonwebtoken) & bcryptjs untuk *hashing* password
 - **CORS & Keamanan**: cors, dotenv
 
-## 🚀 Cara Menjalankan Aplikasi
+##  Cara Menjalankan Aplikasi
 
 ### Persyaratan
 - Node.js (versi 16 atau lebih baru)
@@ -85,9 +85,8 @@ CinemaNana adalah aplikasi web *full-stack* untuk pemesanan tiket bioskop. Aplik
    - Buka *browser* Anda dan kunjungi `http://localhost:5173`.
    - API *backend* akan berjalan di `http://localhost:3000`.
 
-## 🔒 Catatan Keamanan
+##  Catatan Keamanan
 - Variabel *environment* (`.env`) dan `node_modules` sengaja diabaikan oleh git (`.gitignore`) untuk melindungi kredensial sensitif dan menjaga agar *repository* tetap bersih.
 - Token JWT digunakan untuk autentikasi *stateless* dan mengamankan rute-rute API.
 
-## 📄 Lisensi
 © 2026 Sistem Pemesanan Bioskop. Proyek BNSP Informatika Unsoed.
